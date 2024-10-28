@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="/styles/style.css"rel="stylesheet">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
                 <!-- Custom Styles -->
   
   <title>HTML</title>
@@ -14,26 +15,28 @@
     <div class="wrapper">
       <from action="">
         <h1>login</h1>  
-       
         <div class="input-box">
-              <input type="text" placeholder="usernamer"required>
+              <input type="text" placeholder="usuário"required>
+              <i class='bx bxs-user'></i>
         </div> 
         
-        <div class="input-box">
-          <input type="text" placeholder="usernamer"required>
+          <div class="remember-">
+          <input type="password" placeholder="senha"required>
+          <i class='bx bxs-lock'></i>
         </div> 
               
         <div class="remember-forgot">
           <lambel>
             <input type="checkbox"> remember me
             </lambel>
-            <a href="#">forgot</a>
-        </div>
-        
+            <a href="#">forgot password?</a>
+    </div>
+    <button type="submit" class="btn">Login</button>
       
+    <div class="register-link">
+    <p>Want to create an account? <a href="#">Register</a></p>
+    </div>
      
-     
-
 
   </body>
 </html>
